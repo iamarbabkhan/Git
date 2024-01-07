@@ -18,7 +18,7 @@
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
 13. add a repository using ssh: `git remote set-url origin ssh://git@github.com/iamarbabkhan/Git-Practise.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
-14. Push a branch to your remote repository: `git push origin branchname`
+14. Push a branch to remote repository: `git push origin branchname`
 15. Push changes to remote repository: `git push` or `git push -u origin branchname`
 16. Delete a remote branch:  `git push origin --delete branchname`
 17. Pull changes from remote repository to local: `git pull` or  `git pull origin branchname`
