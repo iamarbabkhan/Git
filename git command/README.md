@@ -14,7 +14,7 @@
 9. Remove a file or folder: `git rm -r filename`
 10. view log: `git log`
 11. view changes: `git diff`
-12. add a remote repository: `git remote add origin ssh://git@github.com/iamarbabkhan/Git-Practise.git`
+12. add a remote repository: `git remote add origin https://github.com/iamarbabkhan/Git-Practise.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
 13. add a repository using ssh: `git remote set-url origin ssh://git@github.com/iamarbabkhan/Git-Practise.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
