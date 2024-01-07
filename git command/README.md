@@ -1,4 +1,4 @@
-# Basic command of Git
+## Basic command of Git
 
 1. Initialize a new repository: `git init`
 2. Clone a repository: `git clone https://github.com/iamarbabkhan/Git-Practise.git`
@@ -23,7 +23,7 @@
 16. Delete a remote branch:  `git push origin --delete branchname`
 17. Pull changes from remote repository to local: `git pull` or  `git pull origin branchname`
 
-# Git Branching
+## Git Branching
 
 1. List branches: `git branch` 
 2. List all local and remote branches:  `git branch -a`
@@ -37,17 +37,17 @@
 10. Switch to the branch last checked out: `git checkout -`
 11. Discard changes to a file: `git checkout -- filename`
 
-# Git Merge
+## Git Merge
    
 1. Merge a branch into the active branch: `git merge branchname`
 2. Merge a branch into a target branch: `git merge source branch target branch`
 
-# Git Stash
+## Git Stash
 
 1. Stash changes in a dirty working directory: `git stash`
 2. Remove all stashed entries: `git stash clear`
 
-# Git Rebase
+## Git Rebase
 
 1. git rebase: `git rebase -i branchname`
 
