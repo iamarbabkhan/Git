@@ -4,7 +4,9 @@
 2. Clone a repository: `git clone https://github.com/iamarbabkhan/Git-Practise.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
 3. Configure username: `git config --global user.name "iamarbabkhan"`
+* Note: "iamarbabkhan" is username
 4. configure email: `git config --global user.email "arbabkhan579@gmail.com"`
+* Note: "arbabkhan579@gmail.com" is email
 5. git status: `git status`
 6. Add a file to the staging area: `git add filename` 
 7. Add all new and changed files to the staging area: `git add -A`
