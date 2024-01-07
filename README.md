@@ -15,7 +15,7 @@ its used to track changes of source code
 * Disadvantage: only access through internet
 #### Dvcs: 
 * Ws/pc - staging area - local repository - remote repository
-*Its pull mechanism
+* Its pull mechanism
 * Advantage: access online and offline
 * Disadvantage: difficult for beginner
 
