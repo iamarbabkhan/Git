@@ -1,7 +1,7 @@
 ## Basic command of Git
 
 1. Initialize a new repository: `git init`
-2. Clone a repository: `git clone https://github.com/iamarbabkhan/Git-Practise.git`
+2. Clone a repository: `git clone https://github.com/iamarbabkhan/git.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
 3. Configure username: `git config --global user.name "iamarbabkhan"`
 * Note: "iamarbabkhan" is username
@@ -14,9 +14,9 @@
 9. Remove a file or folder: `git rm -r filename`
 10. view log: `git log`
 11. view changes: `git diff`
-12. add a remote repository: `git remote add origin https://github.com/iamarbabkhan/Git-Practise.git`
+12. add a remote repository: `git remote add origin https://github.com/iamarbabkhan/git.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
-13. add a repository using ssh: `git remote set-url origin ssh://git@github.com/iamarbabkhan/Git-Practise.git`
+13. add a repository using ssh: `git remote set-url origin ssh://git@github.com/iamarbabkhan/git.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
 14. Push a branch to remote repository: `git push origin branchname`
 15. Push changes to remote repository: `git push` or `git push -u origin branchname`
