@@ -68,8 +68,12 @@
 ## Git Clean
 1. Dry run 'git clean -n'
 2. Force delete `git clean -f`
-* Note this command will delete all untracked file from working space
+* Note: this command will delete all untracked file from working space
 
-
+## Git Tag
+1. Add tag using commit id: `git tag -a tagname -m "message" commitid`
+2. List of tag `git tag`
+3. Show commit and details using tag: `git show` or `git show tagname`
+4. Delete tag: `git tag -d tagname'
 
 ## Git Cherry Pick
