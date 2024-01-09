@@ -65,4 +65,11 @@
 1. `git revert commithash`
 * Note: it will undoes the changes from previous commit
 
+## Git Clean
+1. Dry run 'git clean -n'
+2. Force delete `git clean -f`
+* Note this command will delete all untracked file from working space
+
+
+
 ## Git Cherry Pick
