@@ -45,7 +45,12 @@
 ## Git Stash
 
 1. Stash changes in a dirty working directory: `git stash`
-2. Remove all stashed entries: `git stash clear`
+2. Stash File list: `git stash list`
+3. Bring back to working space: `git stash apply statsh@0`
+* Note: 0 or 1 or 2 as per stash list
+4. Remove all stashed entries: `git stash clear`
+
+ 
 
 ## Git Rebase
 
