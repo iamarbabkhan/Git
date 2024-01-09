@@ -12,7 +12,7 @@
 7. Add all new and changed files to the staging area: `git add -A`
 8. Commit changes: `git commit -m "commit message"`
 9. Remove a file or folder: `git rm -r filename`
-10. view log: `git log`
+10. view log: `git log` or `git log --oneline`
 11. view changes: `git diff`
 12. add a remote repository: `git remote add origin https://github.com/iamarbabkhan/git.git`
 * Note: "iamarbabkhan" is username & "Git-Practise" is repository name
@@ -60,3 +60,7 @@
 * Note: if i add a file to staging area and i want to get back it to working space
 2. `git reset --hard`
 * Note: it will delete the file both from working space and staging area
+
+## Git Revert
+1. `git revert commithash`
+* Note: it will undoes the changes from previous commit
