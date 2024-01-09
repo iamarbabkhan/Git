@@ -64,3 +64,5 @@
 ## Git Revert
 1. `git revert commithash`
 * Note: it will undoes the changes from previous commit
+
+## Git Cherry Pick
