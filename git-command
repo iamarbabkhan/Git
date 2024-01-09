@@ -50,8 +50,13 @@
 * Note: 0 or 1 or 2 as per stash list
 4. Remove all stashed entries: `git stash clear`
 
- 
-
 ## Git Rebase
 
 1. git rebase: `git rebase -i branchname`
+
+
+## Git Reset
+1. `git reset .`
+* Note: if i add a file to staging area and i want to get back it to working space
+2. `git reset --hard`
+* Note: it will delete the file both from working space and staging area
