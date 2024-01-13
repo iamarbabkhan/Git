@@ -7,7 +7,8 @@ its used to track changes of source code
 * Distributed Version control system (dvcs)
 * Tool: Git
 
-### Architecture:
+### Git Architecture:
+![git architecture](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png)
 #### Cvcs: 
 * Ws/pc - remote repository
 * Its push mechanism
