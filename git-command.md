@@ -22,7 +22,6 @@
 15. Push changes to remote repository: `git push` or `git push -u origin branchname`
 16. Delete a remote branch:  `git push origin --delete branchname`
 17. Pull changes from remote repository to local: `git pull` or  `git pull origin branchname`
-18. find file location: `which filename` or `whereis filename`
 
 ## Git Branching
 
