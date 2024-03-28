@@ -1,8 +1,8 @@
-# Setting Up Git for GitHub: A Comprehensive Guide
+# Setting Up SSH for GitHub: A Step-by-Step Guide
 
-In today's digital age, version control systems like Git have become indispensable tools for developers, enabling seamless collaboration, efficient code management, and streamlined workflows. GitHub, a popular platform built around Git, serves as a hub for hosting code repositories, facilitating collaboration among developers worldwide. In this guide, we'll walk through the process of setting up Git for GitHub, including generating HTTPS credentials and configuring Git for optimal use.
+In the realm of software development, efficient collaboration and version control are paramount. Git, coupled with platforms like GitHub, has revolutionized the way developers work together on projects. In this guide, we'll walk through the process of setting up SSH for GitHub, enabling secure and seamless communication between your local machine and GitHub repositories.
 
-### Setting Up Git for GitHub: Step-by-Step Guide Configuring Git Identity
+### Setting Up SSH for GitHub: Step-by-Step Guide
 #### Firstly, let's ensure Git is properly configured with your identity. Open your terminal and execute the following commands:
 ```
 git config --global user.name "iamarbabkhan"
@@ -10,7 +10,7 @@ git config --global user.email "arbabkhan579@gmail.com"
 ```
 * Replace "iamarbabkhan" with your GitHub username and "arbabkhan579@gmail.com" with the email associated with your GitHub account.
 
-#### Generating HTTPS Credentials To securely connect with GitHub over HTTPS, we need to generate HTTPS credentials. Execute the following commands in your terminal:
+#### Generating SSH Key to establish a secure connection with GitHub using SSH, you need to generate an SSH key pair. Follow these steps
 ```
 ssh-keygen -t rsa -b 4096 -C "arbabkhan579@gmail.com"
 eval "$(ssh-agent -s)"
@@ -25,10 +25,16 @@ cat ~/.ssh/id_rsa.pub
 ```
 * Copy the output displayed and navigate to your GitHub account settings. Under "SSH and GPG keys", click "New SSH key", paste the copied key, and save it.
 
+#### Verify the SSH connection with GitHub
+```
+ssh -T git@github.com
+```
+* You should receive a message confirming successful authentication.
+
 #### Initializing Repository and Pushing to GitHub
 Now, let's initialize a local repository and push it to GitHub. Follow these steps:
 ```
-git remote add origin https://github.com/iamarbabkhan/git-notes.git
+git remote add origin git@github.com:iamarbabkhan/git-notes.git
 git init
 git add .
 git commit -m "Initial commit message"
@@ -36,7 +42,7 @@ git push -u origin main
 ```
 * Replace "iamarbabkhan" with your GitHub username and "git-notes" with the name of your repository.
 
-#### Resuming Work Using HTTPS with GitHub
+#### Resuming Work Using SSH with GitHub
 After the initial setup, resuming work with GitHub is straightforward:
 ```
 cd YourRepository
