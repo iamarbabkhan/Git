@@ -1,4 +1,4 @@
-### Source Code Management: A Guide to Version Control Systems
+# Source Code Management: A Guide to Version Control Systems
 In the world of software development, keeping track of changes made to source code is not just good practice; it's essential. This is where Version Control Systems (VCS) come into play. VCS allows developers to efficiently manage and track changes to their codebase over time, facilitating collaboration, experimentation, and ensuring project integrity. In this article, we'll delve into the realm of Source Code Management, exploring its types, key terminologies, and the prominent player - Git.
 
 ### Understanding Version Control Systems
@@ -17,23 +17,23 @@ Types of version control system:
 
 ### Git Architecture:
 ![git architecture](https://phoenixnap.com/kb/wp-content/uploads/2021/09/git-workflow.png)
-#### Cvcs: 
-* Ws/pc - remote repository
-* Its push mechanism
-* Advantage: user friendly
-* Disadvantage: only access through internet
-#### Dvcs: 
-* Ws/pc - staging area - local repository - remote repository
-* Its pull mechanism
-* Advantage: access online and offline
-* Disadvantage: difficult for beginner
+
+**CVCS Workflow**
+* In CVCS, the workflow typically involves a workspace (WS) or personal computer (PC) interacting directly with the remote repository. Changes are pushed from the workspace to the central server.
+* **Advantage:** Easy to use.
+* **Disadvantage:** Requires constant internet connectivity.
+
+**DVCS Workflow**
+* DVCS introduces the concept of a staging area between the workspace and the local repository. Changes are committed to the local repository and then pushed to the remote repository.
+* **Advantage:** Offers flexibility with online and offline access.
+* **Disadvantage:** May pose challenges for beginners.
 
 
-### Term used:
-1. **Repository/repo:** storage to save code or file 
-2. **Commit:** changes of code 
-3. **Snapshot:** incremental backup
-4. **Pull request:** fetching changes from remote repo to clocal repo
-5. **Push request:** send changes from local repo to remote repo
-6. **Fork:** creating a personal copy of someone repo in github
-7. **Origin:** default name of remote repo
+### Key Terminologies
+1. **Repository/Repo:** A storage location where code and files are saved and managed.
+2. **Commit:** A record of changes made to the codebase, creating a new version.
+3. **Snapshot:** An incremental backup representing the state of the codebase at a specific point in time.
+4. **Pull Request:** A request to fetch changes from a remote repository to a local repository, often used in collaborative environments.
+5. **Push Request:** A request to send changes from a local repository to a remote repository, updating the shared codebase.
+6. **Fork:** Creating a personal copy of someone else's repository on platforms like GitHub.
+7. **Origin:** The default name often given to the remote repository.
