@@ -7,135 +7,134 @@ Git, the ubiquitous version control system, is the backbone of modern software d
 ### Initializing a Repository
 
 To start tracking changes in a project, you initialize a Git repository using:
-
-` ` `
+```
 git init
-` ` `
+```
 
 ### Cloning a Repository
 
 To clone an existing repository from a remote source:
 
-` ` `
+```
 git clone https://github.com/username/repository.git
-` ` `
+```
 
 ### Configuration
 
 Set up your username and email globally for Git:
 
-` ` `
+```
 git config --global user.name "Your Name"
 git config --global user.email "your@example.com"
-` ` `
+```
 
 ### Tracking Changes
 
 Check the status of your repository:
 
-` ` `
+```
 git status
-` ` `
+```
 
 Add files to the staging area before committing:
 
-` ` `
+```
 git add filename
-` ` `
+```
 
 Commit changes with a descriptive message:
 
-` ` `
+```
 git commit -m "Commit message"
-` ` `
+```
 
 ### Viewing History and Changes
 
 View commit history:
 
-` ` `
+```
 git log
-` ` `
+```
 
 View changes made to files:
 
-` ` `
+```
 git diff
-` ` `
+```
 
 ### Remote Operations
 
 Add a remote repository:
 
-` ` `
+```
 git remote add origin <remote_repository_URL>
-` ` `
+```
 
 Push changes to a remote repository:
 
-` ` `
+```
 git push origin main
-` ` `
+```
 
 ### Branch Management
 
 Create a new branch:
 
-` ` `
+```
 git branch <branch_name>
-` ` `
+```
 
 Switch to a branch:
 
- ` ` `
+ ```
 git checkout <branch_name>
-` ` `
+```
 
 ### Merging Changes
 
 Merge changes from one branch to another:
 
-` ` `
+```
 git merge <branch_name>
-` ` `
+```
 
 ### Stashing Changes
 
 Stash changes temporarily:
 
-` ` `
+```
 git stash
-` ` `
+```
 ### Reverting Changes
 
 Revert changes from a specific commit:
 
- ` ` `
+ ```
 git revert <commit_hash>
-` ` `
+```
 ### Cleaning Untracked Files
 
 Remove untracked files from the working directory:
 
-` ` `
+```
 git clean -f
-` ` `
+```
 
 ### Tagging Commits
 
 Tag a specific commit for reference:
 
-` ` `
+```
 git tag -a <tag_name> -m "Tag message" <commit_hash>
-` ` `
+```
 
 ### Cherry-Picking Commits
 
 Apply specific commits from one branch to another:
 
-` ` `
+```
 git cherry-pick <commit_hash>
-` ` `
+```
 
 ## Conclusion
 
