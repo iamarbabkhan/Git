@@ -5,14 +5,14 @@ In today's digital age, version control systems like Git have become indispensab
 ### Setting Up Git for GitHub: Step-by-Step Guide Configuring Git Identity
 #### Firstly, let's ensure Git is properly configured with your identity. Open your terminal and execute the following commands:
 ```
-git config --global user.name "YourUsername"
-git config --global user.email "YourEmailAddress"
+git config --global user.name "iamarbabkhan"
+git config --global user.email "arbabkhan579@gmail.com"
 ```
-* Replace "YourUsername" with your GitHub username and "YourEmailAddress" with the email associated with your GitHub account.
+* Replace "iamarbabkhan" with your GitHub username and "arbabkhan579@gmail.com" with the email associated with your GitHub account.
 
 #### Generating HTTPS Credentials To securely connect with GitHub over HTTPS, we need to generate HTTPS credentials. Execute the following commands in your terminal:
 ```
-ssh-keygen -t rsa -b 4096 -C "YourEmailAddress"
+ssh-keygen -t rsa -b 4096 -C "arbabkhan579@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
@@ -28,13 +28,13 @@ cat ~/.ssh/id_rsa.pub
 #### Initializing Repository and Pushing to GitHub
 Now, let's initialize a local repository and push it to GitHub. Follow these steps:
 ```
-git remote add origin https://github.com/YourUsername/YourRepository.git
+git remote add origin https://github.com/iamarbabkhan/git-notes.git
 git init
 git add .
 git commit -m "Initial commit message"
 git push -u origin main
 ```
-* Replace "YourUsername" with your GitHub username and "YourRepository" with the name of your repository.
+* Replace "iamarbabkhan" with your GitHub username and "git-notes" with the name of your repository.
 
 #### Resuming Work Using HTTPS with GitHub
 After the initial setup, resuming work with GitHub is straightforward:
