@@ -20,13 +20,12 @@ ssh-add ~/.ssh/id_rsa
 
 #### Adding SSH Key to GitHub
 Next, we need to add the generated SSH key to your GitHub account. Execute the following command to display your SSH public key:
-
-bash
-Copy code
+```
 cat ~/.ssh/id_rsa.pub
-Copy the output displayed and navigate to your GitHub account settings. Under "SSH and GPG keys", click "New SSH key", paste the copied key, and save it.
+```
+* Copy the output displayed and navigate to your GitHub account settings. Under "SSH and GPG keys", click "New SSH key", paste the copied key, and save it.
 
-4. Initializing Repository and Pushing to GitHub
+#### Initializing Repository and Pushing to GitHub
 Now, let's initialize a local repository and push it to GitHub. Follow these steps:
 ```
 git remote add origin https://github.com/YourUsername/YourRepository.git
