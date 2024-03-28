@@ -8,7 +8,7 @@ In today's digital age, version control systems like Git have become indispensab
 git config --global user.name "YourUsername"
 git config --global user.email "YourEmailAddress"
 ```
-#### Replace "YourUsername" with your GitHub username and "YourEmailAddress" with the email associated with your GitHub account.
+* Replace "YourUsername" with your GitHub username and "YourEmailAddress" with the email associated with your GitHub account.
 
 #### Generating HTTPS Credentials To securely connect with GitHub over HTTPS, we need to generate HTTPS credentials. Execute the following commands in your terminal:
 ```
@@ -16,7 +16,7 @@ ssh-keygen -t rsa -b 4096 -C "YourEmailAddress"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
-#### This generates an RSA SSH key pair and adds it to the SSH agent for secure communication with GitHub.
+* This generates an RSA SSH key pair and adds it to the SSH agent for secure communication with GitHub.
 
 #### Adding SSH Key to GitHub
 Next, we need to add the generated SSH key to your GitHub account. Execute the following command to display your SSH public key:
@@ -28,24 +28,22 @@ Copy the output displayed and navigate to your GitHub account settings. Under "S
 
 4. Initializing Repository and Pushing to GitHub
 Now, let's initialize a local repository and push it to GitHub. Follow these steps:
-
-bash
-Copy code
+```
 git remote add origin https://github.com/YourUsername/YourRepository.git
 git init
 git add .
 git commit -m "Initial commit message"
 git push -u origin main
-Replace "YourUsername" with your GitHub username and "YourRepository" with the name of your repository.
+```
+* Replace "YourUsername" with your GitHub username and "YourRepository" with the name of your repository.
 
-Resuming Work Using HTTPS with GitHub
+#### Resuming Work Using HTTPS with GitHub
 After the initial setup, resuming work with GitHub is straightforward:
-
-bash
-Copy code
+```
 cd YourRepository
 git remote -v
 git fetch --all
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
+```
 These commands ensure that your credentials are cached for smoother authentication with GitHub.
