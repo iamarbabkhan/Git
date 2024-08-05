@@ -1,5 +1,5 @@
 # Source Code Management: A Guide to Version Control Systems
-In the world of software development, keeping track of changes made to source code is not just good practice; it's essential. This is where Version Control Systems (VCS) come into play. VCS allows developers to efficiently manage and track changes to their codebase over time, facilitating collaboration, experimentation, and ensuring project integrity. In this article, we'll delve into the realm of Source Code Management, exploring its types, key terminologies, and the prominent player - Git.
+When it comes to software development, maintaining a history of changes made in source code is always considered important not just as best practice but this practices stands immensely crucial. This is where Version Control Systems (VCS) are in use. A VCS allows developers to keep track of what changes have been made over time and makes it easy for others people (or even a previous version of oneself) to experiment or collaborate without compromising the project. Source Code Management: An introductory guide and setup instructions for Git Source code management is an essential...
 
 ### Understanding Version Control Systems
 Types of version control system:
